@@ -2,4 +2,8 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/testdb
     username: seiyayoshitaka
-    password: hogehoge
+logging:
+  level:
+    root: INFO
+    org.springframework: INFO
+    com.example.demokotlin: DEBUG
